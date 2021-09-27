@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&display=swap");
+
+body {
+  background: linear-gradient(135deg, #800080 27.26%, #000000 99%);
+  font-family: "Comic Neue", sans-serif;
+}
+
+.container {
+  background: #808080;
+  color: #39004d;
+  margin: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #000000;
+  padding: 64px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.titulo {
+  margin-left: 10px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #800080;
+  color: #000000;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #800080 27.26%, #000000 99%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 2px #000000;
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos-item a {
+  color: #000000;
+  text-decoration: none;
+}
+.dark {
+  background: black;
+}
+
+.dark .container {
+  background: #2e2e2e;
+  color: #ffffff;
+}
+
+.dark .projetos {
+  background: #341933;
+}
+
+.dark .projetos-titulo {
+  color: #ffffff;
+}
+
+.dark .projetos-item a {
+  color: #ffffff;
+}
+
+.dark .tema button {
+  background: #2e2e2e;
+  color: #ffffff;
+}
